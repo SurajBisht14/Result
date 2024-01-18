@@ -177,6 +177,14 @@ main{
     color:grey;
 }
 @media screen and (max-width:400px) {
+    .color_data{
+        gap: 4px;
+    }
+    .color_data .circle{
+        height:52%;
+        width:38%;
+        border-radius: 100px;
+    }
     .container{
         flex-direction: column;
         width:100vw;
